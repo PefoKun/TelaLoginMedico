@@ -11,3 +11,10 @@ export default {
   components:{}
 }
 </script>
+
+<style lang="scss" scoped>
+@import  '../../public/variaveis.scss';
+div{
+  color:$primary-color;
+}
+</style>
