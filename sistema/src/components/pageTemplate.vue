@@ -1,9 +1,8 @@
 <template>
 <div class="container">
-  <div class="row position-center--class">
-    <b-aspect aspect="4:3" class="col-8 central-element">
-    <div>
-    </div>
+  <div class="row position-center--class d-flex">
+    <b-aspect aspect="4:3" class="col-8 central-element d-flex">
+    <slot></slot>
     </b-aspect>
   </div>
 </div>
@@ -11,27 +10,24 @@
 
 <script>
 export default {
-name:'pageTemplate.vue'
+name:'PageTemplate'
 }
 </script>
 
 <style lang="scss" scoped>
-@import  '../../public/variaveis.scss';
+@import  '../assets/variaveis.scss';
 
 div.position-center--class{
-display:flex;
 height: 100vh;
 justify-content: center;
+
 align-items: center;
-overflow: hidden;
 }
 div.central-element{
   border-radius: 30px 30px;
   background-color:$secondary-color-0;
-  display:flex;
-box-shadow: 0px 5px 20px -10px $secondary-color-7;
-
-
+  box-shadow: 0px 5px 20px -10px $secondary-color-7;
+    height: fit-content;
 }
 
 </style>
