@@ -2,7 +2,11 @@
 ## Tecnologias utilizadas
  
  - Vue.JS
- - BootStrap 
+   - vue-fragment
+   - Vue BootStrap
+ - BootStrap
+
+ 
 
 ## Softwares necessários 
 
@@ -30,3 +34,13 @@ npm run serve
 ```
 
 Se não abrir automaticamente no navegador, use o link que apareceu no seu terminal.
+
+## De dev para dev
+
+Se você é desenvolvedor e irá editar ou analisar esse código eu recomendo algumas extenções.
+
+A primeira é alguma de evidenciar cores, muito útil para verificar a estilização
+No VsCode por exemplo, eu uso Color Highlight (naumovs.color-highlight)
+
+Outra interessante no VsCode é o Material Icon Theme (PKief.material-icon-theme), facilita
+na observação de hierarquia de pastas.
