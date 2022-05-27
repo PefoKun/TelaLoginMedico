@@ -5,7 +5,7 @@
 </template>
 
 <style lang="scss">
-@import './../public/variaveis.scss';
+@import  './assets/variaveis.scss';
 #app{
   width: 100vw;
   height: 100vh;
