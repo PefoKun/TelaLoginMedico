@@ -1,19 +1,32 @@
 <template>
-  <pageTemplate>
-   aaa
-  </pageTemplate>
+  <PageTemplate class='position-relative'>
+  <div class="container m-5">
+    <div class="row ml-3">
+      <div class="col title">
+      <Titulo>Sobre o profissional</Titulo>
+      <SubTitulo>Dados do profissional</SubTitulo>
 
+      <FormularioPersonalDataPage/>
+      
+      </div>
+    </div>
+  </div>
+  </PageTemplate>
 </template>
 
 <script>
-import pageTemplate from "../components/pageTemplate.vue";
-
+import PageTemplate from "../components/PageTemplate.vue";
+import Titulo from "../components/main/Titulo.vue"
+import SubTitulo from "@/components/main/SubTitulo.vue";
+import FormularioPersonalDataPage from "../components/formularioPersonalDataPage.vue";
 export default {
   name:'PersonalDataPage',
-  components:{pageTemplate}
+  components:{ PageTemplate, Titulo, SubTitulo, FormularioPersonalDataPage }
 }
 </script>
 
 <style lang="scss" scoped>
-@import  '../../public/variaveis.scss';
+@import  '../assets/variaveis.scss';
+
+
 </style>
