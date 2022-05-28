@@ -3,7 +3,7 @@
   <b-progress :max="max" height="1.5rem" class="half-input">
     <b-progress-bar class="purple-bar"  :value="progress"></b-progress-bar>
   </b-progress> 
-  <span class="confortaa">1 de 2</span> 
+  <span class="confortaa">{{progress}} de {{max}}</span> 
   </div>
 </template>
 
