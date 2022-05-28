@@ -4,7 +4,9 @@
  - Vue.JS
    - vue-fragment
    - Vue BootStrap
+   - Vue Router
  - BootStrap
+ - SCSS
 
  
 

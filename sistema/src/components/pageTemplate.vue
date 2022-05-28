@@ -1,7 +1,7 @@
 <template>
 <div class="container">
   <div class="row position-center--class d-flex">
-    <b-aspect aspect="4:3" class="col-8 central-element d-flex">
+    <b-aspect aspect="5:3" class="col-10 central-element d-flex">
     <slot></slot>
     </b-aspect>
   </div>
