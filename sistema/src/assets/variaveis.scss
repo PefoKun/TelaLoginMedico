@@ -10,6 +10,7 @@ $font-sans: 'Open Sans', sans-serif;
 $primary-color-0:#483698;
 $secondary-color-0:#FFF;
 $secondary-color-1:#f9f9f9;
+$secondary-color-2:#DFDFDF;
 $secondary-color-3:#B9B9B9;
 $secondary-color-4:#8A8A8A;
 $secondary-color-7:#282828;
@@ -28,7 +29,12 @@ html, body{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
   font-family: 'Open Sans', sans-serif;
+}
+
+body{
+  background-color: $cta-color-1 !important;
 }
 
 /* Setando fonte Confortaa */
@@ -40,3 +46,4 @@ h1,h2,button,span.confortaa,.button-submit{
 h3{
   font-family:$font-sans;
 }
+

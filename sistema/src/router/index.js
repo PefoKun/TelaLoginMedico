@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import PersonalDataPage from '../views/PersonalDataPage.vue'
 import AtendimentoDataPage from '../views/AtendimentoDataPage.vue'
+import ConfirmarDataPage from '../views/ConfirmarDataPage.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -16,9 +17,9 @@ const routes = [
     component: AtendimentoDataPage
   },
   {
-    path:'/sobre-o-atendimento',
+    path:'/revisao-dados',
     name: 'paginaDadosConsulta',
-    component: AtendimentoDataPage
+    component: ConfirmarDataPage
   }
 ]
 

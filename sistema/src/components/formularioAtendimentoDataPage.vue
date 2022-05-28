@@ -80,15 +80,7 @@ export default {
       ],
     },
   }),
-  computed: {
-    cssProps() {
-      return {
-        '--hover-font-size': (this.baseFontSize * 2) + "em",
-        '--bg-hover-color': this. ,
-        '--hover-content': JSON.stringify(this.hoverContent)
-      }
-    }
-  },
+  computed: {},
   methods: {},
 };
 </script>
