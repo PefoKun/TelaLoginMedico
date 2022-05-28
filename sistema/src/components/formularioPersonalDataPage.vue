@@ -92,7 +92,7 @@
       </template>
       </SplitTwo>
       <ProgressBar :max="2" :progress="1"/>
-      <ButtonSubmit/>
+      <ButtonSubmit />
     </b-form>
     
   </div>
