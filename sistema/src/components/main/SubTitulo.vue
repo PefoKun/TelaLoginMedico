@@ -11,7 +11,7 @@ name:'TituloSecundario'
 <style lang="scss" scoped>
 @import  '../../assets/variaveis.scss';
 .title{
-  font-size: 23px;
+  font-size: 30px;
   font-weight: 600;
   color:$secondary-color-7;
   margin-bottom:30px;
