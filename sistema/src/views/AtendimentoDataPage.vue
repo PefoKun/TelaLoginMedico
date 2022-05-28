@@ -18,7 +18,7 @@
 import PageTemplate from "../components/PageTemplate.vue";
 import Titulo from "../components/main/Titulo.vue"
 import SubTitulo from "@/components/main/SubTitulo.vue";
-import FormularioAtendimentoDataPageVue from "@/components/formularioAtendimentoDataPage.vue";
+import FormularioAtendimentoDataPageVue from "@/components/FormularioAtendimentoDataPage.vue";
 export default {
   name:'AtendimentoDataPage',
   components:{ PageTemplate, Titulo, SubTitulo, FormularioAtendimentoDataPageVue }
