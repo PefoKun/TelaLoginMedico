@@ -7,12 +7,17 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    name: 'home',
+    name: 'paginaCadastroPessoal',
     component: PersonalDataPage
   },
   {
+    path:'/cadastro-atendimento',
+    name: 'paginaCadastroConsulta',
+    component: AtendimentoDataPage
+  },
+  {
     path:'/sobre-o-atendimento',
-    name: 'paginaAtendimento',
+    name: 'paginaDadosConsulta',
     component: AtendimentoDataPage
   }
 ]
