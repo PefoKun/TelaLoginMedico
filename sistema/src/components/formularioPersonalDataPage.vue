@@ -1,4 +1,5 @@
 <template>
+  <section>
   <div class="container" style="width:50%">
     <b-form class="form-default" @submit.stop.prevent>
       <!--Nome Completo-->
@@ -90,15 +91,15 @@
       </div>
       </template>
       </SplitTwo>
-
       <ProgressBar :max="2" :progress="1"/>
-
       <ButtonSubmit/>
-
     </b-form>
-     
-
+    
   </div>
+  <div class="container imgdesktop" style="width:50%">
+   
+  </div>
+  </section>
 </template>
 
 <script>
@@ -151,6 +152,9 @@ export default {
 @import '../assets/variaveis.scss';
 
 
+section{
+  display: flex;
+
 .form-default{
   width: 100%; 
   position:relative;
@@ -192,6 +196,11 @@ export default {
   margin-left: 20px;
   }
 }
-
+  .imgdesktop{
+    background-image: url('@/assets/images/desktop/desktop-pagina-1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
 
 </style>
