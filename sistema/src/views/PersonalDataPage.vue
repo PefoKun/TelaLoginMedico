@@ -3,8 +3,8 @@
   <div class="container m-5">
     <div class="row ml-3">
       <div class="col title">
-      <Titulo>Revisão do cadastro</Titulo>
-
+      <Titulo>Sobre o profissional</Titulo>
+      <SubTitulo>Dados do profissional</SubTitulo>
       <FormularioPersonalDataPage/>
       
       </div>
@@ -17,9 +17,10 @@
 import PageTemplate from "../components/PageTemplate.vue";
 import Titulo from "../components/main/Titulo.vue"
 import FormularioPersonalDataPage from "../components/FormularioPersonalDataPage.vue";
+import SubTitulo from "@/components/main/SubTitulo.vue";
 export default {
   name:'PersonalDataPage',
-  components:{ PageTemplate, Titulo, FormularioPersonalDataPage }
+  components:{ PageTemplate, Titulo, FormularioPersonalDataPage, SubTitulo }
 }
 </script>
 

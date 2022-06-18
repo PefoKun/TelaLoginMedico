@@ -27,7 +27,8 @@ export default {
   span{
     width: 100%;
     height: fit-content;
-    line-break: anywhere;
+    line-break: loose;
+    margin-bottom: 20px;
   }
 }
 </style>

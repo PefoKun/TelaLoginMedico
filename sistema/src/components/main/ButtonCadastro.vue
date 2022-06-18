@@ -1,5 +1,5 @@
 <template>
-  <b-button class="button-submit" type="submit">Próximo</b-button>
+  <b-button class="button-submit" type="submit">CADASTRAR PROFISSIONAL</b-button>
 </template>
 
 <script>
@@ -11,15 +11,19 @@ export default {
 <style scoped lang="scss">
 @import  '../../assets/variaveis.scss';
 .button-submit{
-  background-color:$primary-color-0;
+  background-color:$cta-color-0;
   text-transform: uppercase;
   border-radius: 15px;
   width: 95%;
-  &:active{
-    border:1px solid $secondary-color-7;
-  }
+  color:$secondary-color-7;
+  margin-top: 30px;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: bold;
+  border:0;
   &:hover{
-    background-color: #33266c;
+    background-color: #e9cf3b;
+    color:#4a4949;
   }
 }
 

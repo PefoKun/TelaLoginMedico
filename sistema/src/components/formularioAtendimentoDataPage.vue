@@ -174,6 +174,13 @@ section {
     background-image: url("@/assets/images/desktop/desktop-pagina-2.png");
     background-repeat: no-repeat;
     background-size: contain;
+    background-position:0 25px;
+    @media(max-width:1360px){
+      background-position: 0px 30px;
+    }
+    @media(max-width:1050px){
+      background-position: 0px 30px;
+    }
   }
 }
 </style>
